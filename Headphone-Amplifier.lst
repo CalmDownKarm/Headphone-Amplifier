@@ -1,0 +1,56 @@
+eeschema (25-Oct-2014 BZR 4029)-stable  >> Creation date: Wed Jul 22 17:56:18 2015
+#Cmp ( order = Reference )
+| BT1        9V          
+| BT2        9V          
+| C1         220uF       
+| C2         220uF       
+| C3         C           
+| C4         C           
+| J1         JACK_3.5MM_3PIN
+| J2         JACK_3.5MM_3PIN
+| R1         5k          
+| R2         5K          
+| R3         250         
+| R4         2k5         
+| R5         22k1        
+| R6         250         
+| R7         2k5         
+| R8         22.1k       
+| R9         1k          
+| R10        1K          
+| R11        100         
+| R12        100         
+| RV1        100k        
+| RV2        100K        
+| U1         OPA2134     
+| U2         OPA2134     
+#End Cmp
+
+#Cmp ( order = Value )
+| 9V           BT1       
+| 9V           BT2       
+| 220uF        C1        
+| 220uF        C2        
+| C            C3        
+| C            C4        
+| JACK_3.5MM_3PIN J1        
+| JACK_3.5MM_3PIN J2        
+| 100          R11       
+| 100          R12       
+| 250          R3        
+| 250          R6        
+| 1k           R9        
+| 1K           R10       
+| 2k5          R4        
+| 2k5          R7        
+| 5k           R1        
+| 5K           R2        
+| 22k1         R5        
+| 22.1k        R8        
+| 100k         RV1       
+| 100K         RV2       
+| OPA2134      U1        
+| OPA2134      U2        
+#End Cmp
+
+#End List
